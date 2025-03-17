@@ -1,0 +1,88 @@
+.search-file {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.container-search {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0; 
+    
+
+}
+
+.blank {
+    text-align: center;
+    margin-bottom: 20px; 
+    height: 40vh;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.word-icon {
+    margin-bottom: 10px;
+}
+
+.text{
+    color: #ed145b;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+}
+.text-search-file{
+    color: #ed145b;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.text-move-file{
+    color: #ed145b;
+    font-size: 2.5rem;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.toggle-container {
+    margin-top: 20px; 
+    display: flex;
+    align-self: flex-start; 
+    gap: 10px;
+    margin-left: 10%;
+}
+.toggle-text{
+    color: #fff;
+    font-size: 1.9rem;
+}
+.questions{
+    color: #fff;
+    font-size: 3rem;
+    display: flex;
+    gap: 20px;
+    padding-left: 350px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.questions input{
+    max-width: 5%;
+}
+.text-tooltip{
+    color: #fff;
+    font-size: 2.0rem;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.generate{
+    margin-bottom: 2%;
+    font-size: 2rem;
+    background-color: #ffd5e3;
+    border-radius: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+    cursor: pointer;
+}

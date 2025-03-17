@@ -1,0 +1,141 @@
+.main-container {
+    display: flex;
+    height: 100vh;
+}
+/* Centralizar o conteúdo principal */
+.main-content {
+    flex-grow: 1;
+}
+
+/* Estilização do SearchFile */
+.container-search {
+    margin: 0 auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    min-height: 80vh;
+    width: 60%;
+    background-color: #ed145b !important;
+    border: solid 2px #f8eb31 !important;
+    border-radius: 5px;
+}
+.search-file {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.container-search {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background-color: #f0f0f0; 
+    padding: 20px;
+    
+
+}
+
+.blank {
+    text-align: center;
+    margin-bottom: 20px; 
+    height: 40vh;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.word-icon {
+    margin-bottom: 10px;
+}
+
+.text{
+    color: #ed145b;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+}
+.text-search-file{
+    color: #ed145b;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.text-move-file{
+    color: #ed145b;
+    font-size: 2.5rem;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.questions-postech{
+    color: #fff;
+    font-size: 3rem;
+    display: flex;
+    gap: 20px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.questions-postech input{
+    max-width: 7%;
+}
+.text-tooltip{
+    color: #fff;
+    font-size: 2.0rem;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.generate{
+    margin-bottom: 2%;
+    font-size: 2rem;
+    background-color: #ffd5e3;
+    border-radius: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+    cursor: pointer;
+}
+.options {
+    min-height: 100vh;
+    background-color: #635A5A;
+    width: 20%;
+    flex-shrink: 0; 
+}
+.options ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.options ul li {
+    text-align: center;
+    padding-top: 40%;
+    margin-bottom: 20%; 
+    font-size: 4rem;
+    color: #efecec;
+    position: relative;
+    cursor: pointer;
+}
+.options ul li::after {
+    content: '';
+    position: absolute;
+    bottom: 0.1rem;
+    left: 20%;
+    width: 0%;
+    min-height: 0.1rem;
+    background: #ee145b;
+    transition: all 300ms ease-in;
+}
+.options ul li:hover::after {
+    width: 50%;
+}
+/* Logo no topo à direita */
+.container-logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+}
+.container-logo img {
+    width: 90px;
+    height: auto;
+}
